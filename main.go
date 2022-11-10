@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	netcheck "goChecker/pkgs/net"
+	netcheck "netTester/pkgs/net"
 )
 
 func main() {

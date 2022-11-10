@@ -73,7 +73,7 @@ func NetChecker(host string) {
 	err := c.CheckAddr(host+":80", timeout)
 	switch err {
 	case netcheker.ErrTimeout:
-		fmt.Println("Connect to " + host + "timed out")
+		fmt.Println("Connect to " + host + " timed out")
 	case nil:
 		fmt.Println("Connect to " + host + " succeeded")
 	default:

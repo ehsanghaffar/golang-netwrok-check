@@ -1,4 +1,4 @@
-module goChecker
+module netTester
 
 go 1.19
 
